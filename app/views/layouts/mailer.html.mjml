@@ -1,11 +1,12 @@
 <mjml>
   <mj-head>
     <mj-preview>This is the inbox preview</mj-preview>
+    <mj-font name="Cinzel" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap" />
   </mj-head>
   <mj-body>
     <mj-section>
       <mj-column>
-        <mj-text font-size="20px">This is an MJML template</mj-text>
+        <mj-text font-family="Cinzel" font-size="20px">This is an MJML template</mj-text>
         <mj-text font-size="20px">Greeting 1: <%= @greeting %></mj-text>
       </mj-column>
     </mj-section>
